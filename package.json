@@ -11,7 +11,7 @@
     "gcloud",
     "node"
   ],
-  "author": "Collins",
+  "author": "dq",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.2",
