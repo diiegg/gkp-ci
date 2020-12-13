@@ -47,7 +47,7 @@ jobs:
       - gcp-gke/init
       # Update a deployment Docker image.
       - gcp-gke/rollout-image:
-          deployment: ci-cd
+          deployment: dev-cluster
           container: backend
           image: eu.gcr.io/labs-298016/ci-cd:0.1.0 # change version when updating
 workflows:
